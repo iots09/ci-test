@@ -1,5 +1,5 @@
 {
-  "name": "@sgtickets/common",
+  "name": "@ottoman/ms-common",
   "version": "1.0.16",
   "description": "",
   "main": "./build/index.js",
