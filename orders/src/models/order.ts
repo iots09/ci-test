@@ -1,5 +1,5 @@
 import mongoose from 'mongoose';
-import { OrderStatus } from '@sgtickets/common';
+import { OrderStatus } from '@ottoman/ms-common';
 import { TicketDoc } from './ticket';
 
 export { OrderStatus };
@@ -15,6 +15,7 @@ interface OrderDoc extends mongoose.Document {
   userId: string;
   status: OrderStatus;
   expiresAt: Date;
+  version: number;
   ticket: TicketDoc;
 }
 

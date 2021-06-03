@@ -1,6 +1,6 @@
 {
   "name": "@ottoman/ms-common",
-  "version": "1.0.18",
+  "version": "1.0.29",
   "description": "",
   "main": "./build/index.js",
   "types": "./build/index.d.ts",
@@ -21,7 +21,7 @@
   },
   "dependencies": {
     "@types/cookie-session": "^2.0.39",
-    "@types/express": "^4.17.5",
+    "@types/express": "^4.17.11",
     "@types/jsonwebtoken": "^8.3.9",
     "cookie-session": "^1.4.0",
     "express": "^4.17.1",

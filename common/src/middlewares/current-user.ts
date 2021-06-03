@@ -1,4 +1,4 @@
-import { Request, Response, NextFunction } from 'express';
+import express from 'express'
 import jwt from 'jsonwebtoken';
 
 interface UserPayload {
@@ -15,9 +15,9 @@ declare global {
 }
 
 export const currentUser = (
-  req: Request,
-  res: Response,
-  next: NextFunction
+  req: express.Request,
+  res: express.Response,
+  next: express.NextFunction
 ) => {
   if (!req.session?.jwt) {
     return next();
